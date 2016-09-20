@@ -16,8 +16,8 @@ function draw() {
 
 function branch(length) {
 
-    //var thickness = map(length, 2, 120, 1, 5);
-    strokeWeight(2);
+    var thickness = map(length, 2, 120, 1, 5);
+    strokeWeight(thickness);
     line(0, 0, 0, -length);
     //move to end of branch
 
