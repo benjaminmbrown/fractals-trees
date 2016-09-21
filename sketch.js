@@ -6,11 +6,11 @@ function setup() {
 
 function draw() {
   background(51);
-  theta = map(mouseX,0,width,0,PI/2);
-
+  theta = map(mouseX,0,width,0,PI/2); 
+  length = mouseY
   translate(width/2, height);
   stroke(255);
-  branch(120);
+  branch(mouseY);
 }
 
 function branch(len) {
