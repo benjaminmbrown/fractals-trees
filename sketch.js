@@ -10,7 +10,7 @@ function draw() {
   length = mouseY
   translate(width/2, height);
   stroke(255);
-  branch(mouseY);
+  branch(mouseY/3);
 }
 
 function branch(len) {
