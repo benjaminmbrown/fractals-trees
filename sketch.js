@@ -28,12 +28,12 @@ function branch(len) {
   if (len > 2) {
     push();    
     rotate(theta);   
-    branch(len);      
+    branch(random(len-15,len+15));      
     pop();    
 
     push();
     rotate(-theta);
-    branch(len);
+   branch(random(len-15,len+15)); 
     pop();
   }
 }
