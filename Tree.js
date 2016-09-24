@@ -1,9 +1,9 @@
 var Tree = function() {
-    this.initialLength = 120;
-    
-    
+    this.initialLength = 100;
+
+
     this.init = function() {
-    	console.log('init');
+        console.log('init');
     }
 
     this.run = function() {
@@ -12,11 +12,18 @@ var Tree = function() {
     }
 
     this.update = function() {
-    	this.theta = map(mouseX, 0, width, 0, PI / 2);
+        this.theta = map(mouseX, 0, width, 0, PI / 2);
+    }
+
+    this.leaf = function() {
+        fill(color(0, 255, 0, 30));
+        noStroke();
+        ellipse(0, 0, 15, 35);
+        pop();
     }
 
     this.branch = function(len) {
-    
+
         var sw = map(len, 2, 120, 1, 10);
         strokeWeight(sw);
         // strokeWeight(2);
@@ -28,7 +35,7 @@ var Tree = function() {
         len *= 0.7;
 
         if (len > 3) {
-        	
+
             push();
             rotate(this.theta);
             //rotate(.77);
@@ -40,18 +47,13 @@ var Tree = function() {
             //rotate(-.77);
             this.branch(len);
             pop();
-        }
-        else { 
-        	push()
-        	fill(color(0,255,0,30));
-        	noStroke();
-        	ellipse(0,0,15,35);
-        	pop();
+        } else {
+           this.leaf();
         }
     }
 
     this.display = function() {
-        translate(width/2,height);
+        translate(width / 2, height);
         stroke(255);
         this.branch(this.initialLength);
     }
