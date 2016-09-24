@@ -16,9 +16,10 @@ var Tree = function() {
     }
 
     this.leaf = function() {
+    	push();
         fill(color(0, 255, 0, 30));
         noStroke();
-        ellipse(0, 0, 15, 35);
+        ellipse(0, 0, random(5,15), random(35,65));
         pop();
     }
 
@@ -26,7 +27,6 @@ var Tree = function() {
 
         var sw = map(len, 2, 120, 1, 10);
         strokeWeight(sw);
-        // strokeWeight(2);
 
         line(0, 0, 0, -len);
 

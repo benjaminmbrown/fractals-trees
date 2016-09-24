@@ -4,6 +4,8 @@ Trees as fractals
 <img src="https://media.giphy.com/media/l2Sq1DKI2w7pMMg6I/giphy.gif"/>
 #scraggly tree
 <img src="https://media.giphy.com/media/3o6ZtlTDlncttJpiW4/giphy.gif"/>
+#updating leaves
+<img src="https://media.giphy.com/media/3o7TKIIHrJY6PzUYHm/giphy.gif"/>
 # fractal tree reacting to mouse move
 <img src="https://media.giphy.com/media/l0MYRT5cVjCAn2tQk/giphy.gif"/>
 # map branch height to mouse Y
