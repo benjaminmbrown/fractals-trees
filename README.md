@@ -8,6 +8,8 @@ Trees as fractals
 <img src ="https://media.giphy.com/media/l3vR8oWWUShvinyrC/giphy.gif"/>
 # random branch length fail
 <img src="https://media.giphy.com/media/l2SpV1513yrCdc3za/giphy.gif"/>
+# add leaves
+<img src="https://media.giphy.com/media/l0MYxJeKF3nGxUzpm/giphy.gif"/>
 # randomizing branch length every frame = freaky tree
 <img src="http://www.giphy.com/gifs/l0MYEMrsF354LIw6Y"/>
 # don't understand:

@@ -1,5 +1,5 @@
 var Tree = function() {
-    this.initialLength = 150;
+    this.initialLength = 110;
     this.theta = map(mouseX, 0, width, 0, PI / 2);
     
     this.init = function() {
@@ -40,6 +40,13 @@ var Tree = function() {
             rotate(-.77);
             this.branch(len);
             pop();
+        }
+        else { 
+        	push()
+        	fill(color(0,255,0,30));
+        	noStroke();
+        	ellipse(0,0,15,15);
+        	pop();
         }
     }
 
