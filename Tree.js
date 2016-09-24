@@ -1,6 +1,6 @@
 var Tree = function() {
-    this.initialLength = 110;
-    this.theta = map(mouseX, 0, width, 0, PI / 2);
+    this.initialLength = 120;
+    
     
     this.init = function() {
     	console.log('init');
@@ -12,7 +12,7 @@ var Tree = function() {
     }
 
     this.update = function() {
-    	
+    	this.theta = map(mouseX, 0, width, 0, PI / 2);
     }
 
     this.branch = function(len) {
@@ -30,14 +30,14 @@ var Tree = function() {
         if (len > 3) {
         	
             push();
-            //rotate(this.theta);
-            rotate(.77);
+            rotate(this.theta);
+            //rotate(.77);
             this.branch(len);
             pop();
 
             push();
-            //rotate(-this.theta);
-            rotate(-.77);
+            rotate(-this.theta);
+            //rotate(-.77);
             this.branch(len);
             pop();
         }
@@ -45,7 +45,7 @@ var Tree = function() {
         	push()
         	fill(color(0,255,0,30));
         	noStroke();
-        	ellipse(0,0,15,15);
+        	ellipse(0,0,15,35);
         	pop();
         }
     }
