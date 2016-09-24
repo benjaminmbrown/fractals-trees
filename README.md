@@ -1,7 +1,7 @@
 # fractals-trees
 Trees as fractals
 #tree with leaves w/ theta mapped to mouse move
-<img src="https://media.giphy.com/media/3o6ZtlXZOpEn6tLJAY/giphy.gif"/>
+<img src="https://media.giphy.com/media/d31xgOsbjv80XcPe/giphy.gif"/>
 # fractal tree reacting to mouse move
 <img src="https://media.giphy.com/media/l0MYRT5cVjCAn2tQk/giphy.gif"/>
 # map branch height to mouse Y
