@@ -2,6 +2,8 @@
 Trees as fractals
 #tree with leaves w/ theta mapped to mouse move
 <img src="https://media.giphy.com/media/l2Sq1DKI2w7pMMg6I/giphy.gif"/>
+#random number of branches
+<img src="https://media.giphy.com/media/l0MYtiks2DjLl1mx2/giphy.gif"/>
 #scraggly tree
 <img src="https://media.giphy.com/media/3o6ZtlTDlncttJpiW4/giphy.gif"/>
 #updating leaves
